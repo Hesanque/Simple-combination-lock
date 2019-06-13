@@ -43,11 +43,11 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\objects\</OutputDirectory>
-          <OutputName>不含595芯片</OutputName>
+          <OutputName>含595芯片</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
-          <DebugInformation>1</DebugInformation>
+          <DebugInformation>0</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\listings\</ListingPath>
           <HexFormatSelection>0</HexFormatSelection>
@@ -155,7 +155,7 @@
         </DebugOption>
         <Utilities>
           <Flash1>
-            <UseTargetDll>0</UseTargetDll>
+            <UseTargetDll>1</UseTargetDll>
             <UseExternalTool>0</UseExternalTool>
             <RunIndependent>0</RunIndependent>
             <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
@@ -163,7 +163,7 @@
             <DriverSelection>-1</DriverSelection>
           </Flash1>
           <Flash2></Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
         </Utilities>
         <Target51>
@@ -354,17 +354,17 @@
             <File>
               <FileName>keyscan.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\keyscan.c</FilePath>
+              <FilePath>.\source_file\keyscan.c</FilePath>
             </File>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
+              <FilePath>.\source_file\main.c</FilePath>
             </File>
             <File>
               <FileName>shumaguan.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\shumaguan.c</FilePath>
+              <FilePath>.\source_file\shumaguan.c</FilePath>
             </File>
           </Files>
         </Group>
